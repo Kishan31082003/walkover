@@ -1,0 +1,17 @@
+# Node modules (never commit these)
+node_modules/
+
+# Dependency lock file (optional: ignore if using Yarn or you don't want it)
+package-lock.json
+
+# Environment variables (sensitive info)
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
